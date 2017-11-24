@@ -9,12 +9,14 @@
 #include <stdio.h>
 #include "ArrayDefine01.h"
 #include "ArrayUse01.h"
+#include "ArrayUse02.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    printInfo();
     //数组作为参数传递
 //    sendArrayToFunctionType01();
-    sendArrayToFunctionType03();
+//    sendArrayToFunctionType03();
+    printGetArrayInfo();
     return 0;
 }

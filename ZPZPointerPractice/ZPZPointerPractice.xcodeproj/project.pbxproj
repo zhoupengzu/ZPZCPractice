@@ -10,6 +10,7 @@
 		DB95A5E21FC7B755002A2B59 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DB95A5E11FC7B755002A2B59 /* main.c */; };
 		DB95A5EA1FC7B7BD002A2B59 /* ArrayDefine01.c in Sources */ = {isa = PBXBuildFile; fileRef = DB95A5E91FC7B7BD002A2B59 /* ArrayDefine01.c */; };
 		DB95A5ED1FC7B90C002A2B59 /* ArrayUse01.c in Sources */ = {isa = PBXBuildFile; fileRef = DB95A5EC1FC7B90C002A2B59 /* ArrayUse01.c */; };
+		DB95A5F01FC7C115002A2B59 /* ArrayUse02.c in Sources */ = {isa = PBXBuildFile; fileRef = DB95A5EF1FC7C115002A2B59 /* ArrayUse02.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		DB95A5E91FC7B7BD002A2B59 /* ArrayDefine01.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArrayDefine01.c; sourceTree = "<group>"; };
 		DB95A5EB1FC7B90C002A2B59 /* ArrayUse01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayUse01.h; sourceTree = "<group>"; };
 		DB95A5EC1FC7B90C002A2B59 /* ArrayUse01.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArrayUse01.c; sourceTree = "<group>"; };
+		DB95A5EE1FC7C115002A2B59 /* ArrayUse02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayUse02.h; sourceTree = "<group>"; };
+		DB95A5EF1FC7C115002A2B59 /* ArrayUse02.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArrayUse02.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				DB95A5E91FC7B7BD002A2B59 /* ArrayDefine01.c */,
 				DB95A5EB1FC7B90C002A2B59 /* ArrayUse01.h */,
 				DB95A5EC1FC7B90C002A2B59 /* ArrayUse01.c */,
+				DB95A5EE1FC7C115002A2B59 /* ArrayUse02.h */,
+				DB95A5EF1FC7C115002A2B59 /* ArrayUse02.c */,
 			);
 			path = ZPZPointerPractice;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				DB95A5E21FC7B755002A2B59 /* main.c in Sources */,
 				DB95A5ED1FC7B90C002A2B59 /* ArrayUse01.c in Sources */,
 				DB95A5EA1FC7B7BD002A2B59 /* ArrayDefine01.c in Sources */,
+				DB95A5F01FC7C115002A2B59 /* ArrayUse02.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
