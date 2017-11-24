@@ -10,6 +10,8 @@
 #include "ArrayDefine01.h"
 #include "ArrayUse01.h"
 #include "ArrayUse02.h"
+#include "PointerUse01.h"
+#include "PointerArray01.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -17,6 +19,8 @@ int main(int argc, const char * argv[]) {
     //数组作为参数传递
 //    sendArrayToFunctionType01();
 //    sendArrayToFunctionType03();
-    printGetArrayInfo();
+//    printGetArrayInfo();
+//    pointerUse01();
+    pointArrayUse01();
     return 0;
 }
