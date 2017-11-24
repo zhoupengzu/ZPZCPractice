@@ -12,6 +12,7 @@
 #include "ArrayUse02.h"
 #include "PointerUse01.h"
 #include "PointerArray01.h"
+#include "PointerUse03.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -21,6 +22,7 @@ int main(int argc, const char * argv[]) {
 //    sendArrayToFunctionType03();
 //    printGetArrayInfo();
 //    pointerUse01();
-    pointArrayUse01();
+//    pointArrayUse01();
+    sendPointerToChangeValue();
     return 0;
 }
