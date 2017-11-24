@@ -32,3 +32,11 @@ void pointArrayUse01(){
         printf("%d\n",*(ptr[i]));
     }
 }
+//因为c没有字符串类型，只能通过char来实现
+void defineAString() {
+    char c = 'c';
+    char str[] = "str";
+    printf("%s\n",str);
+    char * strPoint = "str";
+    printf("%s",strPoint);
+}
