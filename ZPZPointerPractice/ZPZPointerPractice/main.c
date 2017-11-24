@@ -7,9 +7,14 @@
 //
 
 #include <stdio.h>
+#include "ArrayDefine01.h"
+#include "ArrayUse01.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
+//    printInfo();
+    //数组作为参数传递
+//    sendArrayToFunctionType01();
+    sendArrayToFunctionType03();
     return 0;
 }
