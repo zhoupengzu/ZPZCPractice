@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DB95A6201FC7D3CE002A2B59 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DB95A61F1FC7D3CE002A2B59 /* main.c */; };
+		DB95A6281FC7EA73002A2B59 /* StructDefine01.c in Sources */ = {isa = PBXBuildFile; fileRef = DB95A6271FC7EA73002A2B59 /* StructDefine01.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DB95A61C1FC7D3CE002A2B59 /* ZPZStructPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZPZStructPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB95A61F1FC7D3CE002A2B59 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DB95A6261FC7EA73002A2B59 /* StructDefine01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StructDefine01.h; sourceTree = "<group>"; };
+		DB95A6271FC7EA73002A2B59 /* StructDefine01.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StructDefine01.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				DB95A61F1FC7D3CE002A2B59 /* main.c */,
+				DB95A6261FC7EA73002A2B59 /* StructDefine01.h */,
+				DB95A6271FC7EA73002A2B59 /* StructDefine01.c */,
 			);
 			path = ZPZStructPractice;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB95A6281FC7EA73002A2B59 /* StructDefine01.c in Sources */,
 				DB95A6201FC7D3CE002A2B59 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
