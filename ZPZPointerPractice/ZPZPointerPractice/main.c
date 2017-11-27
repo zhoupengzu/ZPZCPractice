@@ -26,3 +26,11 @@ int main(int argc, const char * argv[]) {
     sendPointerToChangeValue();
     return 0;
 }
+///这是c++的特性
+//void swap_02(int &a, int &b){
+//    int temp = a;
+//    a = b;
+//    b = temp;
+////    cout << a << endl;  //20
+//}
+
