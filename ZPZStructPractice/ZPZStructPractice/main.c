@@ -33,6 +33,7 @@ void defineStructPointer(){
     person.age = 20;
     struct Person * personPtr = &person;
     useStructPointerAsParam(personPtr);
+    dog.name = "changed";
 }
 
 void useStructPointerAsParam(struct Person * per) {
@@ -40,9 +41,16 @@ void useStructPointerAsParam(struct Person * per) {
     printf("name:%s,age:%d\n",per->name,(*per).age);
 }
 
+void testAnimatl() {
+    struct Animatl ani;
+    ani.name = "ani";
+    printf("%s\n",ani.name);
+    printf("%s\n",dog.name);
+}
+
 int main(int argc, const char * argv[]) {
-    defineStruct();
+//    defineStruct();
     defineStructPointer();
-    
+    testAnimatl();
     return 0;
 }
